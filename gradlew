@@ -35,9 +35,6 @@ cd "$SAVED" >/dev/null
 APP_NAME="Gradle"
 APP_BASE_NAME=`basename "$0"`
 
-# Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.
-DEFAULT_JVM_OPTS="-Xmx64m -Xms64m"
-
 warn () {
     echo "$*"
 } >&2
@@ -93,7 +90,7 @@ if [ "$cygwin" = "true" -o "$msys" = "true" ] ; then
     JAVACMD=`cygpath --unix "$JAVACMD"`
 fi
 
-exec "$JAVACMD" $DEFAULT_JVM_OPTS $JAVA_OPTS $GRADLE_OPTS \
+exec "$JAVACMD" -Xmx64m -Xms64m $JAVA_OPTS $GRADLE_OPTS \
 	"-Dorg.gradle.appname=$APP_BASE_NAME" \
 	-classpath "$CLASSPATH" \
 	org.gradle.wrapper.GradleWrapperMain \
