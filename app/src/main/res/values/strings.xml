@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ไทยช่วยไทยพลัส 60/40</string>
+    <string name="title_main">เครื่องคำนวณ ไทยช่วยไทยพลัส</string>
+    <string name="label_amount">จำนวนเงิน (บาท)</string>
+    <string name="label_government_pay">รัฐช่วยจ่าย (60%)</string>
+    <string name="label_user_pay">ผู้ใช้จ่าย (40%)</string>
+    <string name="label_total">รวมทั้งสิ้น</string>
+    <string name="btn_calculate">คำนวณ</string>
+    <string name="btn_clear">ลบ</string>
+    <string name="btn_history">ประวัติ</string>
+    <string name="error_exceeds_daily">⚠️ เกินวงเงินรายวัน 200 บาท</string>
+    <string name="error_exceeds_monthly">⚠️ เกินวงเงินรายเดือน 1,000 บาท</string>
+    <string name="error_invalid_input">กรุณากรอกจำนวนเงินที่ถูกต้อง</string>
+    <string name="label_remaining_daily">เหลือวันนี้:</string>
+    <string name="label_remaining_monthly">เหลือเดือนนี้:</string>
+    <string name="label_total_quota">วงเงินรวม:</string>
+    <string name="label_used">ใช้ไปแล้ว:</string>
+    <string name="success">✅ คำนวณสำเร็จ</string>
+</resources>
